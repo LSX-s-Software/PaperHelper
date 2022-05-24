@@ -52,3 +52,13 @@ _✨ Author: [LSX-s-Software](https://github.com/LSX-s-Software) | [NagisaCo](ht
 ## 成员分工
 - LSX-s-Software: UI 设计，前端界面，后端功能
 - NagisaCo: 数据库设计，后端服务
+
+## 目录结构
+
+```
+├── LICENSE
+├── README.md              本文件
+├── docs                   其他文档
+└── paper_helper_frontend  前端项目仓库
+```
+
