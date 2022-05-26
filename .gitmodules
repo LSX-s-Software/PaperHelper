@@ -1,3 +1,6 @@
 [submodule "paper_helper_frontend"]
 	path = paper_helper_frontend
 	url = git@github.com:LSX-s-Software/paper_helper_frontend.git
+[submodule "PaperHelperBackend"]
+	path = PaperHelperBackend
+	url = https://github.com/Nagico/PaperHelperBackend.git
