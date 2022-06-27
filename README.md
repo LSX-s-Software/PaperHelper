@@ -27,14 +27,14 @@ _✨ Author: [LSX-s-Software](https://github.com/LSX-s-Software) | [NagisaCo](ht
 
 ## 软件功能
 
-- 文献管理
-  - 自动识别文献的元数据并归类
-  - 通过文献的元数据查询文献
-  - 云端文献库
-
-- 跨平台访问
-
-- 多人协同标注
+- [x] 文献管理
+  - [x] 上传本地PDF文件
+  - [x] 根据DOI自动添加文献
+- [x] 文献阅读
+- [x] 文献批注
+- [x] 笔记协同
+- [x] 思维导图协同
+- [x] 深色模式
 
 ## 技术实现
 
@@ -42,12 +42,13 @@ _✨ Author: [LSX-s-Software](https://github.com/LSX-s-Software) | [NagisaCo](ht
 
 - 采用 `Vue` 实现前端页面，提供 GUI 供用户使用本平台。运用开源库实现协同标注功能。
 - 采用 `C#` 实现后端，提供用户注册登录、文献自动识别、文件管理等功能。
+- 搭配 `ShareDB` 实现协同功能
 
 ### 技术难度
 
 - 文章结构丰富多样，难以通用的形式从中提取有用的数据
 - 合理管理资源文件，减少服务器开销
-- 搭配 `ShareDB` 实现协同功能
+- 协同功能
 
 ## 成员分工
 - LSX-s-Software: UI 设计，前端界面，后端功能
@@ -59,6 +60,7 @@ _✨ Author: [LSX-s-Software](https://github.com/LSX-s-Software) | [NagisaCo](ht
 ├── LICENSE
 ├── README.md              本文件
 ├── docs                   其他文档
+├── PaperHelperBackend     后端项目仓库
 └── paper_helper_frontend  前端项目仓库
 ```
 
